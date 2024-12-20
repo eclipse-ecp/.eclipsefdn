@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-ecp') {
+orgs.newOrg('modeling.ecp', 'eclipse-ecp') {
   settings+: {
     description: "",
     name: "Eclipse ECP",
